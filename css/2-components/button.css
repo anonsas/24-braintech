@@ -1,0 +1,16 @@
+.btn,
+.btn:link,
+.btn:visited {
+  font-weight: 600;
+  font-size: 1.6rem;
+  padding: 1.5rem 4rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 99px;
+  text-decoration: none;
+  color: var(--white-color);
+  background: var(--btn-gradient);
+}
+.btn:hover {
+  background: var(--btn-gradient-hover);
+}

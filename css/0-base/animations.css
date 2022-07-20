@@ -1,0 +1,30 @@
+@keyframes youtube-border {
+  0% {
+    opacity: 1;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    border: 1px solid var(--white-color);
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+    height: 18rem;
+    width: 18rem;
+    border-radius: 50%;
+    border: 1px solid var(--white-color);
+  }
+  100% {
+    opacity: 0;
+    border-radius: 50%;
+  }
+}
+
+@keyframes header-slides {
+  0% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}

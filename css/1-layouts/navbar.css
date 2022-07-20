@@ -1,0 +1,82 @@
+.toggle-button {
+  font-size: 2.4rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar {
+  position: relative;
+  padding: 2.4rem 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__list {
+  position: absolute;
+  top: 7.6rem;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 10;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.navbar__list-show {
+  height: 30.2rem;
+}
+
+.navbar__list > a,
+.navbar__list > a:link,
+.navbar__list > a:visited {
+  color: var(--main-color);
+  text-decoration: none;
+  padding: 1.2rem 2rem;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+.navbar__list > a:hover {
+  color: #106eea;
+}
+.navbar__list > a:not(:last-of-type) {
+  border-bottom: 1px solid var(--main-color);
+}
+
+/* BREAKPOINTS =========================== */
+@media screen and (min-width: 62.5em) {
+  .toggle-button {
+    display: none !important;
+  }
+
+  .navbar__list {
+    position: static;
+    height: auto;
+    flex-direction: row;
+    background-color: transparent;
+    column-gap: 2.5rem;
+  }
+
+  .navbar__list > a,
+  .navbar__list > a:link,
+  .navbar__list > a:visited {
+    color: var(--white-color);
+    padding: 1.2rem 0;
+  }
+  .navbar__list > a:hover {
+    color: #818eb0;
+  }
+  .navbar__list > a:not(:last-of-type) {
+    border: none;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .navbar__list {
+    column-gap: 5rem;
+  }
+}

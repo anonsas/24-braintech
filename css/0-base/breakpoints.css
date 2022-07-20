@@ -1,0 +1,62 @@
+/* MEDIA QUERY MANAGER */
+
+/* from 480px === min-width: 30em */
+/* from 580px === min-width: 36.25em */
+/* from 768px === min-width: 48em */
+/* from 1000px === min-width: 62.5em */
+/* from 1200px === min-width: 75em */
+/* from 1300px === min-width: 81.25em */
+
+.container {
+  width: 100%;
+  display: inline-block;
+  padding: 0 1.5rem;
+}
+
+.container > .row {
+  width: 100%;
+  display: inline-block;
+}
+
+/* from 580 px */
+@media screen and (min-width: 36.25em) {
+  .container {
+    padding: 0;
+  }
+  .container > .row {
+    width: 51rem;
+    margin: 0 calc(50% - 25.5rem);
+  }
+}
+
+/* from 768 px */
+@media screen and (min-width: 48em) {
+  .container > .row {
+    width: 69rem;
+    margin: 0 calc(50% - 34.5rem);
+  }
+}
+
+/* from 1000px px */
+@media screen and (min-width: 62.5em) {
+  .container > .row {
+    width: 93rem;
+    margin: 0 calc(50% - 46.5rem);
+  }
+}
+
+/* from 1200px px */
+@media screen and (min-width: 75em) {
+  .container > .row {
+    width: 111rem;
+    margin: 0 calc(50% - 55.5rem);
+  }
+}
+
+/* from 1300px */
+@media screen and (min-width: 81.25em) {
+  .container > .row {
+    width: 121rem;
+    margin: 0 calc(50% - 60.5rem);
+  }
+}
