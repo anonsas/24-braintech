@@ -4,6 +4,10 @@
   cursor: pointer;
 }
 
+.toggle-button-scrolled {
+  color: #4b8bef;
+}
+
 .navbar {
   position: relative;
   padding: 2.4rem 0;
@@ -47,6 +51,24 @@
   border-bottom: 1px solid var(--main-color);
 }
 
+.navbar__list-icons {
+  display: none !important;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  column-gap: 3rem;
+}
+.navbar__list-icons > button {
+  font-size: 1.8rem;
+  color: var(--white-color);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.navbar__list-icons > button:last-of-type {
+  font-size: 3rem;
+}
+
 /* BREAKPOINTS =========================== */
 @media screen and (min-width: 62.5em) {
   .toggle-button {
@@ -73,10 +95,26 @@
   .navbar__list > a:not(:last-of-type) {
     border: none;
   }
+
+  .navbar__list-icons {
+    display: flex !important;
+  }
 }
 
 @media screen and (min-width: 75em) {
   .navbar__list {
     column-gap: 5rem;
+  }
+  .navbar__list-icons {
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (min-width: 85em) {
+  .navbar__list {
+    column-gap: 6rem;
+  }
+  .navbar__list-icons {
+    margin-left: 4rem;
   }
 }

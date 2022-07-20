@@ -1,5 +1,10 @@
-.header-background {
+.header-background,
+.heading-background {
   background: var(--bg-gradient);
+}
+
+.header-background-scrolled {
+  background: var(--white-color);
 }
 
 .header-background > .row {
@@ -11,7 +16,6 @@
   width: auto;
 }
 
-/* =========================== */
 .heading {
   color: var(--white-color);
   padding-top: 6.5rem;
@@ -26,31 +30,32 @@
 }
 
 .heading__youtube {
-  color: #03228e;
-  font-size: 2rem;
-  padding: 3rem;
+  height: 7rem;
+  width: 7rem;
   border: none;
   border-radius: 50%;
   cursor: pointer;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-/* .heading__youtube::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  animation: youtube-border 4s cubic-bezier(0.61, 1, 0.88, 1) 0.5s infinite;
-} */
+.heading__youtube::before,
 .heading__youtube::after {
   content: '';
-  display: block;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   animation: youtube-border 4s cubic-bezier(0.61, 1, 0.88, 1) infinite;
+}
+.heading__youtube::after {
+  animation: youtube-border 4s cubic-bezier(0.61, 1, 0.88, 1) 0.5s infinite;
+}
+
+.heading__youtube-icon {
+  color: #03228e;
+  font-size: 2rem;
 }
 
 .heading__intro-text {
@@ -72,7 +77,7 @@
   display: none;
 }
 
-.animated-line {
+/* .animated-line {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -108,9 +113,22 @@
 }
 .animated-line-3::after {
   animation: header-slides 15s 3s infinite;
-}
+} */
 
 @media screen and (min-width: 62.5em) {
+  .header-background {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+
+  .header-background-scrolled .navbar__list > a,
+  .header-background-scrolled .navbar__list button {
+    color: var(--main-color);
+  }
+
   .header__logo {
     height: 2.8rem;
   }
@@ -144,7 +162,6 @@
 
   .heading {
     padding-top: 16rem;
-    padding-bottom: 19rem;
   }
 
   .heading__intro {

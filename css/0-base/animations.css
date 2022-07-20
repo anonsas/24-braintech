@@ -5,7 +5,6 @@
     width: 7rem;
     border-radius: 50%;
     border: 1px solid var(--white-color);
-    opacity: 1;
   }
   80% {
     opacity: 0;
