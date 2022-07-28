@@ -1,0 +1,127 @@
+.about-brand-background {
+  background-color: var(--white-color);
+  padding-bottom: 7rem;
+}
+
+.about-brand__image > img {
+  display: none;
+}
+
+.bars {
+  margin-top: 3rem;
+  margin-bottom: 4.5rem;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+
+.bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.bar__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar__content--name {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.bar__content--percentage {
+  font-weight: 700;
+}
+
+.bar__progress {
+  height: 0.8rem;
+  width: 100%;
+  background-color: #eeeeee;
+  position: relative;
+}
+.bar__progress::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.bar__progress--1::before {
+  width: 92%;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(253, 101, 7, 1),
+    rgba(253, 101, 7, 1) 5px,
+    rgba(255, 124, 62, 1) 5px,
+    rgba(255, 124, 62, 1) 10px
+  );
+}
+.bar__progress--2::before {
+  width: 80%;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(0, 223, 167, 1),
+    rgba(0, 223, 167, 1) 5px,
+    rgba(79, 227, 181, 1) 5px,
+    rgba(79, 227, 181, 1) 10px
+  );
+}
+.bar__progress--3::before {
+  width: 95%;
+  background-color: #46a8fe;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(9, 154, 253, 1),
+    rgba(9, 154, 253, 1) 5px,
+    rgba(70, 168, 254, 1) 5px,
+    rgba(70, 168, 254, 1) 10px
+  );
+}
+.bar__progress--4::before {
+  width: 78%;
+  background-color: #f4408a;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(240, 7, 116, 1),
+    rgba(240, 7, 116, 1) 5px,
+    rgba(244, 64, 138, 1) 5px,
+    rgba(244, 64, 138, 1) 10px
+  );
+}
+
+/* from 1000px px */
+@media screen and (min-width: 62.5em) {
+  .about-brand {
+    display: flex;
+    column-gap: 7.5rem;
+    align-items: flex-start;
+  }
+  .about-brand__image > img {
+    display: block;
+    height: 100%;
+    width: 45rem;
+    object-fit: contain;
+  }
+}
+
+/* from 1200px px */
+@media screen and (min-width: 75em) {
+  .about-brand {
+    column-gap: 4rem;
+  }
+
+  .about-brand__image > img {
+    width: 58rem;
+  }
+}
+
+/* from 1300px */
+@media screen and (min-width: 81.25em) {
+  .about-brand {
+    column-gap: 9rem;
+  }
+}

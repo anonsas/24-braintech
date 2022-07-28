@@ -1,15 +1,17 @@
 .btn,
 .btn:link,
 .btn:visited {
+  display: inline-block;
   font-weight: 600;
   font-size: 1.6rem;
-  padding: 1.5rem 4rem;
+  padding: 1.4rem 4rem;
   cursor: pointer;
   border: none;
   border-radius: 99px;
   text-decoration: none;
   color: var(--white-color);
   background: var(--btn-gradient);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .btn:hover {
   background: var(--btn-gradient-hover);

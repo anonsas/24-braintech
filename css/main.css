@@ -6,8 +6,11 @@
 @import url('./1-layouts/hero.css');
 @import url('./1-layouts/composition.css');
 @import url('./1-layouts/about.css');
+@import url('./1-layouts/about-brand.css');
 @import url('./1-layouts/composition-bottom.css');
 
 @import url('./2-components/animated-lines.css');
 @import url('./2-components/button.css');
 @import url('./2-components/form.css');
+
+@import url('./3-pages/home.css');
