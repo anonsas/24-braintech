@@ -1,3 +1,6 @@
+.composition-top-background {
+  background-color: var(--white-color);
+}
 .composition {
   width: 100%;
   overflow: hidden;
