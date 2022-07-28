@@ -1,0 +1,14 @@
+.composition-bottom-background {
+  background: var(--composition-gradient);
+  cursor: auto;
+}
+.composition-bottom-background .composition__slide {
+  cursor: pointer;
+}
+.composition-bottom-background .composition__slide > img {
+  filter: grayscale(100%);
+}
+
+.composition-bottom-background .composition__slide > img:hover {
+  filter: none;
+}

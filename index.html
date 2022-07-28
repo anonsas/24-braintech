@@ -35,97 +35,81 @@
   </head>
 
   <body>
-    <!-- HEADER + NAV --START==================== -->
-    <header id="home" class="container header-background">
-      <div class="row">
-        <nav class="navbar">
-          <img src="./assets/logo/logo-light.png" alt="logo" class="header__logo" />
-          <a class="fa-solid fa-bars toggle-button"></a>
+    <div class="animated-lines-wrapper">
+      <div class="animated-line animated-line-1"></div>
+      <div class="animated-line animated-line-2"></div>
+      <div class="animated-line animated-line-3"></div>
+      <!-- HEADER --START==================== -->
+      <div id="home" class="container header-background">
+        <div class="row">
+          <header class="header">
+            <img src="./assets/logo/logo-light.png" alt="logo" class="header__logo" />
+            <a class="fa-solid fa-bars toggle-button"></a>
 
-          <ul class="navbar__list">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#pages">Pages</a>
-            <a href="#blog">Blog</a>
-            <a href="#contact">Contact</a>
-            <div class="navbar__list-icons">
-              <button class="fa-solid fa-magnifying-glass"></button>
-              <button class="fa-regular fa-rectangle-list"></button>
-            </div>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <section class="container heading-background">
-      <div class="row">
-        <div class="heading">
-          <!-- LEFT-SIDE -->
-          <div class="heading__intro">
-            <button class="heading__youtube">
-              <i class="fa-solid fa-play heading__youtube-icon"></i>
-            </button>
-            <div class="heading__intro-text">
-              <h1>We Are Digital Agency & Technology Solution</h1>
-              <p>
-                We are leading technology solutions providing company all over the world
-                doing over 40 years.
-              </p>
-            </div>
-
-            <a href="#" class="btn">Get Started</a>
-          </div>
-
-          <!-- RIGHT-SIDE -->
-          <img
-            src="./assets/images/header-rocket.png"
-            alt="rocket"
-            class="heading__image"
-          />
+            <nav class="navbar">
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#services">Services</a>
+              <a href="#pages">Pages</a>
+              <a href="#blog">Blog</a>
+              <a href="#contact">Contact</a>
+              <div class="navbar__icons">
+                <button class="fa-solid fa-magnifying-glass"></button>
+                <button class="fa-regular fa-rectangle-list"></button>
+              </div>
+            </nav>
+          </header>
         </div>
-
-        <!-- <div class="animated-line animated-line-1"></div>
-        <div class="animated-line animated-line-2"></div>
-        <div class="animated-line animated-line-3"></div> -->
       </div>
-    </section>
-    <!-- HEADER + NAV --END====================== -->
+      <!-- HEADER --END==================== -->
+
+      <!-- ======================================================== -->
+
+      <!-- HERO-SECTION --START==================== -->
+      <section class="container hero-background">
+        <div class="row">
+          <section class="hero">
+            <!-- LEFT-SIDE -->
+            <div class="hero__content">
+              <button class="hero__content-btn">
+                <i class="fa-solid fa-play hero__youtube-icon"></i>
+              </button>
+              <div class="hero__content-text">
+                <h1>We Are Digital Agency & Technology Solution</h1>
+                <p>
+                  We are leading technology solutions providing company all over the world
+                  doing over 40 years.
+                </p>
+              </div>
+
+              <a href="#" class="btn">Get Started</a>
+            </div>
+
+            <!-- RIGHT-SIDE -->
+            <img
+              src="./assets/images/header-rocket.png"
+              alt="rocket"
+              class="hero__image"
+            />
+          </section>
+        </div>
+      </section>
+      <!-- HERO-SECTION --END==================== -->
+    </div>
+
+    <!-- ======================================================== -->
 
     <!-- COMPOSITION-TOP --START==================== -->
     <section class="container composition-top-background">
       <div class="row">
-        <div class="composition composition-top">
-          <div class="composition__slider">
-            <div class="composition__slide">
-              <img src="./assets/companies/1.png" alt="company" />
-            </div>
-            <div class="composition__slide">
-              <img src="./assets/companies/2.png" alt="company" />
-            </div>
-            <div class="composition__slide">
-              <img src="./assets/companies/3.png" alt="company" />
-            </div>
-            <div class="composition__slide">
-              <img src="./assets/companies/4.png" alt="company" />
-            </div>
-            <div class="composition__slide">
-              <img src="./assets/companies/5.png" alt="company" />
-            </div>
-            <div class="composition__slide">
-              <img src="./assets/companies/6.png" alt="company" />
-            </div>
-            <div class="composition__slide">
-              <img src="./assets/companies/7.png" alt="company" />
-            </div>
-            <div class="composition__slide">
-              <img src="./assets/companies/8.png" alt="company" />
-            </div>
-          </div>
+        <div class="composition">
+          <div class="composition__slider"></div>
         </div>
       </div>
     </section>
     <!-- COMPOSITION-TOP --END====================== -->
+
+    <!-- ======================================================== -->
 
     <!-- ABOUT-US --START==================== -->
     <section id="about" class="container about-background">
@@ -133,11 +117,15 @@
     </section>
     <!-- ABOUT-US --END====================== -->
 
+    <!-- ======================================================== -->
+
     <!-- ABOUT-US-PROGRESS --START==================== -->
     <section class="container about-progress-background">
       <div class="row"></div>
     </section>
     <!-- ABOUT-US-PROGRESS --END====================== -->
+
+    <!-- ======================================================== -->
 
     <!-- SERVICES --START==================== -->
     <section id="services" class="container services-background">
@@ -145,11 +133,15 @@
     </section>
     <!-- SERVICES --END====================== -->
 
+    <!-- ======================================================== -->
+
     <!-- CHOOSE-US --START==================== -->
     <section id="pages" class="container choose-us-background">
       <div class="row"></div>
     </section>
     <!-- CHOOSE-US --END====================== -->
+
+    <!-- ======================================================== -->
 
     <!-- LETS TALK --START==================== -->
     <section class="container talk-background">
@@ -157,11 +149,15 @@
     </section>
     <!-- LETS TALK --END====================== -->
 
+    <!-- ======================================================== -->
+
     <!-- BLOGS --START==================== -->
     <section id="blog" class="container blogs-background">
       <div class="row"></div>
     </section>
     <!-- BLOGS --END====================== -->
+
+    <!-- ======================================================== -->
 
     <!-- TESTIMONIALS --START==================== -->
     <section class="container testimonials-background">
@@ -169,17 +165,27 @@
     </section>
     <!-- TESTIMONIALS --END====================== -->
 
+    <!-- ======================================================== -->
+
     <!-- COMPOSITION-BOTTOM --START==================== -->
     <section class="container composition-bottom-background">
-      <div class="row"></div>
+      <div class="row">
+        <div class="composition">
+          <div class="composition__slider composition__slider-2"></div>
+        </div>
+      </div>
     </section>
     <!-- COMPOSITION-BOTTOM --END====================== -->
+
+    <!-- ======================================================== -->
 
     <!-- FOOTER --START==================== -->
     <footer id="contact" class="container footer-background">
       <div class="row"></div>
     </footer>
     <!-- FOOTER --END====================== -->
+
+    <!-- ======================================================== -->
 
     <!-- MOVE TO TOP BUTTON --START==================== -->
     <button class="btn-to-top"></button>

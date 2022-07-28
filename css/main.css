@@ -2,18 +2,11 @@
 @import url('./0-base/animations.css');
 @import url('./0-base/base.css');
 
-@import url('./1-layouts/navbar.css');
 @import url('./1-layouts/header.css');
-@import url('./1-layouts/composition-top.css');
-@import url('./1-layouts/about.css');
-@import url('./1-layouts/about-progress.css');
-@import url('./1-layouts/services.css');
-@import url('./1-layouts/choose-us.css');
-@import url('./1-layouts/talk.css');
-@import url('./1-layouts/blogs.css');
-@import url('./1-layouts/testimonials.css');
+@import url('./1-layouts/hero.css');
+@import url('./1-layouts/composition.css');
 @import url('./1-layouts/composition-bottom.css');
-@import url('./1-layouts/footer.css');
 
+@import url('./2-components/animated-lines.css');
 @import url('./2-components/button.css');
 @import url('./2-components/form.css');

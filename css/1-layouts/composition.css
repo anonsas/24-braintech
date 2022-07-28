@@ -1,0 +1,30 @@
+.composition {
+  width: 100%;
+  overflow: hidden;
+
+  position: relative;
+  height: 19rem;
+  display: flex;
+  align-items: center;
+  cursor: grab;
+}
+
+/* inner */
+.composition__slider {
+  position: absolute;
+  left: 0;
+  display: flex;
+  column-gap: 2rem;
+  transition: 0 ease-in;
+}
+
+.composition__slide {
+  height: 7rem;
+  width: 22rem;
+}
+
+.composition__slide > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

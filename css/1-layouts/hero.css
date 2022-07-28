@@ -1,0 +1,119 @@
+.hero-background {
+  background: var(--bg-gradient);
+}
+
+.hero {
+  color: var(--white-color);
+  padding-top: 6.5rem;
+  padding-bottom: 13rem;
+}
+
+.hero__content {
+  max-width: 47rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* ================================ */
+.hero__content-btn {
+  position: relative;
+  height: 8rem;
+  width: 8rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.hero__content-btn::before,
+.hero__content-btn::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  animation: youtube-border 4s cubic-bezier(0.61, 1, 0.88, 1) infinite;
+}
+.hero__content-btn::after {
+  animation: youtube-border 4s cubic-bezier(0.61, 1, 0.88, 1) 0.5s infinite;
+}
+
+.hero__youtube-icon {
+  color: #03228e;
+  font-size: 2rem;
+}
+/* ================================ */
+
+.hero__content-text {
+  margin-top: 3rem;
+  margin-bottom: 3.3rem;
+}
+.hero__content-text > h1 {
+  font-size: 4rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+.hero__content-text > p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+/* ================================ */
+
+.hero__image {
+  display: none;
+}
+
+/* BREAKPOINTS =========================== */
+@media screen and (min-width: 62.5em) {
+  .hero {
+    padding-top: 15.5rem;
+    padding-bottom: 19rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hero__content-text {
+    margin-top: 7rem;
+  }
+  .hero__content-text > p {
+    font-size: 2rem;
+  }
+
+  .hero__image {
+    display: block;
+    height: auto;
+    width: 48rem;
+    object-fit: contain;
+    z-index: 10;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .hero {
+    padding-top: 16rem;
+  }
+
+  .hero__content {
+    max-width: 54rem;
+  }
+
+  .hero__content-btn {
+    margin-left: 2rem;
+  }
+
+  .hero__content-text > h1 {
+    font-size: 4.2rem;
+  }
+
+  .hero__image {
+    width: 55rem;
+  }
+}
+
+@media screen and (min-width: 81.25em) {
+  .hero__content {
+    max-width: 59rem;
+  }
+}

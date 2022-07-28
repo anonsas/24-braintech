@@ -1,0 +1,89 @@
+.animated-lines-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.animated-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: #777;
+}
+.animated-line-1 {
+  left: 1rem;
+}
+.animated-line-2 {
+  left: 50%;
+}
+.animated-line-3 {
+  right: 1rem;
+}
+.animated-line-1::after,
+.animated-line-2::after,
+.animated-line-3::after {
+  content: '';
+  position: absolute;
+  top: -10rem;
+  left: -1px;
+  width: 3px;
+  height: 6rem;
+  background: linear-gradient(to top, #106eea, var(--white-color));
+  animation: header-slides 15s linear 2s infinite;
+}
+.animated-line-2::after {
+  animation: header-slides 15s linear infinite;
+}
+
+/* BREAKPOINTS =========================== */
+/* from 580 px */
+@media screen and (min-width: 36.25em) {
+  .animated-line-1 {
+    left: 3.5rem;
+  }
+  .animated-line-3 {
+    right: 3.5rem;
+  }
+}
+
+/* from 768 px */
+@media screen and (min-width: 48em) {
+  .animated-line-1 {
+    left: 2rem;
+  }
+  .animated-line-3 {
+    right: 2rem;
+  }
+}
+
+/* from 1000px px */
+@media screen and (min-width: 62.5em) {
+  .animated-line-1 {
+    left: 5rem;
+  }
+  .animated-line-3 {
+    right: 5rem;
+  }
+}
+
+/* from 1200px px */
+@media screen and (min-width: 75em) {
+  .animated-line-1 {
+    left: 1rem;
+  }
+  .animated-line-3 {
+    right: 1rem;
+  }
+}
+
+/* from 1300px */
+@media screen and (min-width: 81.25em) {
+  .animated-line-1 {
+    left: 9rem;
+  }
+  .animated-line-3 {
+    right: 9rem;
+  }
+}

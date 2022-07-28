@@ -8,6 +8,7 @@
   --bg-gradient: linear-gradient(to right, #02228e 35%, #0e66d7);
   --btn-gradient: linear-gradient(to top right, #dc4c22, #f1781e);
   --btn-gradient-hover: linear-gradient(to top right, #f1781e, #dc4c22);
+  --composition-gradient: linear-gradient(to top right, #080273, #06005f);
 }
 
 *,

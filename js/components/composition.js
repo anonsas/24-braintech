@@ -1,44 +1,61 @@
-const composition = document.querySelector('.composition');
-const compositionSlider = document.querySelector('.composition__slider');
+const imageList = [
+  './assets/companies/1.png',
+  './assets/companies/2.png',
+  './assets/companies/3.png',
+  './assets/companies/4.png',
+  './assets/companies/5.png',
+  './assets/companies/6.png',
+  './assets/companies/7.png',
+  './assets/companies/8.png',
+];
 
-let pressed = false;
-let startx;
-let x;
+const imageList2 = [
+  './assets/companies/1-hover.png',
+  './assets/companies/2-hover.png',
+  './assets/companies/3-hover.png',
+  './assets/companies/4-hover.png',
+  './assets/companies/5-hover.png',
+  './assets/companies/6-hover.png',
+  './assets/companies/7-hover.png',
+  './assets/companies/8-hover.png',
+];
 
-composition.addEventListener('mousedown', (e) => {
-  pressed = true;
-  startx = e.offsetX - compositionSlider.offsetLeft;
-  compositionSlider.style.cursor = 'grabbing';
-});
+class Slider {
+  constructor(selector, data) {
+    this.selector = document.querySelector(selector);
+    this.parentElement = this.selector.parentElement;
+    this.data = data;
+    this.render();
+  }
 
-compositionSlider.addEventListener('mouseenter', () => {
-  compositionSlider.style.cursor = 'grab';
-});
+  render() {
+    this.events();
+    this.renderHTML();
+  }
 
-compositionSlider.addEventListener('mouseup', () => {
-  compositionSlider.style.cursor = 'grab';
-});
+  events() {
+    this.parentElement.addEventListener('mousedown', () => {
+      this.parentElement.style.cursor = 'grabbing';
+    });
 
-window.addEventListener('mouseup', () => {
-  pressed = false;
-});
+    this.parentElement.addEventListener('mouseup', () => {
+      this.parentElement.style.cursor = 'grab';
+    });
+  }
 
-composition.addEventListener('mousemove', (e) => {
-  if (!pressed) return;
-  e.preventDefault();
+  renderHTML() {
+    let html = '';
 
-  x = e.offsetX;
-  compositionSlider.style.left = `${x - startx}px`;
-  checkBoundary();
-});
-
-function checkBoundary() {
-  let outer = composition.getBoundingClientRect();
-  let inner = compositionSlider.getBoundingClientRect();
-
-  if (parseInt(compositionSlider.style.left > 0)) {
-    compositionSlider.style.left = '0';
-  } else if (inner.right < outer.right) {
-    compositionSlider.style.left = `-${inner.width - outer.width}px`;
+    for (const imgSrc of this.data) {
+      html += `
+            <div class="composition__slide">
+              <img src=${imgSrc} alt="company" />
+            </div>
+      `;
+    }
+    this.selector.insertAdjacentHTML('afterbegin', html);
   }
 }
+
+new Slider('.composition__slider', imageList);
+new Slider('.composition__slider-2', imageList2);
