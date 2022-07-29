@@ -29,11 +29,3 @@
     flex-basis: 53rem;
   }
 }
-
-/* from 1200px px */
-@media screen and (min-width: 75em) {
-}
-
-/* from 1300px */
-@media screen and (min-width: 81.25em) {
-}
