@@ -1,0 +1,68 @@
+.card {
+  position: relative;
+  padding: 5rem 3rem;
+  background-color: var(--white-color);
+  border-radius: 0.6em;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.card:hover {
+  color: var(--white-color);
+}
+
+.card:hover img {
+  filter: brightness(0) invert(1);
+  animation: scale-about-img 0.4s;
+}
+
+.card img {
+  height: 6rem;
+  object-fit: contain;
+  margin-bottom: 5rem;
+}
+
+.card h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  transition: all 0.4s;
+}
+
+.serial-number {
+  position: absolute;
+  right: 4.5rem;
+  top: 2rem;
+  font-size: 7rem;
+  font-weight: 600;
+  color: #02010108;
+}
+.card:hover .serial-number {
+  color: #ffffff26;
+}
+
+/* BREAKPOINTS =========================== */
+/* from 768 px */
+@media screen and (min-width: 48em) {
+  .card {
+    margin-bottom: 0;
+  }
+}
+
+/* from 1000px px */
+@media screen and (min-width: 62.5em) {
+  .card img {
+    height: 7rem;
+    margin-bottom: 3rem;
+  }
+}
+
+/* from 1200px px */
+@media screen and (min-width: 75em) {
+  .card {
+    padding: 5rem 3.5rem;
+  }
+}

@@ -43,32 +43,6 @@
   padding-top: 5rem;
 }
 
-.about-card {
-  padding: 5rem 3rem;
-  background-color: var(--white-color);
-  border-radius: 0.6em;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 2rem;
-}
-
-.about-card-1:hover,
-.about-card-2:hover,
-.about-card-3:hover,
-.about-card-4:hover {
-  color: var(--white-color);
-}
-
-.about-card-1:hover > img,
-.about-card-2:hover > img,
-.about-card-3:hover > img,
-.about-card-4:hover > img {
-  filter: brightness(0) invert(1);
-  animation: scale-about-img 0.4s;
-}
-
 .about-card-1:hover {
   background-color: #fd660b;
 }
@@ -80,17 +54,6 @@
 }
 .about-card-4:hover {
   background-color: #2b43e3;
-}
-
-.about-card > img {
-  height: 6rem;
-  object-fit: contain;
-  margin-bottom: 5rem;
-}
-.about-card > h4 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
 }
 
 /* BREAKPOINTS =========================== */
@@ -124,9 +87,6 @@
     flex-direction: column;
     gap: 2rem;
   }
-  .about-card {
-    margin-bottom: 0;
-  }
 }
 
 /* from 1000px px */
@@ -142,10 +102,6 @@
   .about-content {
     width: 37rem;
     margin-top: 9rem;
-  }
-  .about-card > img {
-    height: 7rem;
-    margin-bottom: 3rem;
   }
   .content__statistics {
     margin-left: 1.5rem;
