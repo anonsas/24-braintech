@@ -3,10 +3,6 @@
   padding-bottom: 7rem;
 }
 
-.about-brand__image > img {
-  display: none;
-}
-
 .bars {
   margin-top: 3rem;
   margin-bottom: 4.5rem;
@@ -93,35 +89,4 @@
   );
 }
 
-/* from 1000px px */
-@media screen and (min-width: 62.5em) {
-  .about-brand {
-    display: flex;
-    column-gap: 7.5rem;
-    align-items: flex-start;
-  }
-  .about-brand__image > img {
-    display: block;
-    height: 100%;
-    width: 45rem;
-    object-fit: contain;
-  }
-}
 
-/* from 1200px px */
-@media screen and (min-width: 75em) {
-  .about-brand {
-    column-gap: 4rem;
-  }
-
-  .about-brand__image > img {
-    width: 58rem;
-  }
-}
-
-/* from 1300px */
-@media screen and (min-width: 81.25em) {
-  .about-brand {
-    column-gap: 9rem;
-  }
-}

@@ -1,0 +1,39 @@
+.section__image > img {
+  display: none;
+}
+
+/* from 1000px px */
+@media screen and (min-width: 62.5em) {
+  .section {
+    position: relative;
+
+    display: flex;
+    column-gap: 7.5rem;
+    align-items: flex-start;
+  }
+
+  .section__image > img {
+    display: block;
+    height: 100%;
+    width: 45rem;
+    object-fit: contain;
+  }
+}
+
+/* from 1200px px */
+@media screen and (min-width: 75em) {
+  .section {
+    column-gap: 4rem;
+  }
+
+  .section__image > img {
+    width: 58rem;
+  }
+}
+
+/* from 1300px */
+@media screen and (min-width: 81.25em) {
+  .section {
+    column-gap: 9rem;
+  }
+}

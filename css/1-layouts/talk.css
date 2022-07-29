@@ -1,0 +1,37 @@
+.talk-background {
+  padding-top: 7rem;
+  padding-bottom: 8rem;
+  background-color: #f6f7f9;
+}
+
+.talk-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.talk {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rem;
+}
+
+/* from 768 px */
+@media screen and (min-width: 48em) {
+}
+
+/* from 1000px px */
+@media screen and (min-width: 62.5em) {
+  .talk-background {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+}
+
+/* from 1200px px */
+@media screen and (min-width: 75em) {
+}
+
+/* from 1300px */
+@media screen and (min-width: 81.25em) {
+}

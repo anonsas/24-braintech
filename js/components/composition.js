@@ -1,23 +1,23 @@
 const imageList = [
-  './assets/companies/1.png',
-  './assets/companies/2.png',
-  './assets/companies/3.png',
-  './assets/companies/4.png',
-  './assets/companies/5.png',
-  './assets/companies/6.png',
-  './assets/companies/7.png',
-  './assets/companies/8.png',
+  './assets/logos/composition-logo-1.png',
+  './assets/logos/composition-logo-2.png',
+  './assets/logos/composition-logo-3.png',
+  './assets/logos/composition-logo-4.png',
+  './assets/logos/composition-logo-5.png',
+  './assets/logos/composition-logo-6.png',
+  './assets/logos/composition-logo-7.png',
+  './assets/logos/composition-logo-8.png',
 ];
 
 const imageList2 = [
-  './assets/companies/1-hover.png',
-  './assets/companies/2-hover.png',
-  './assets/companies/3-hover.png',
-  './assets/companies/4-hover.png',
-  './assets/companies/5-hover.png',
-  './assets/companies/6-hover.png',
-  './assets/companies/7-hover.png',
-  './assets/companies/8-hover.png',
+  './assets/logos/composition-logo-1-hover.png',
+  './assets/logos/composition-logo-2-hover.png',
+  './assets/logos/composition-logo-3-hover.png',
+  './assets/logos/composition-logo-4-hover.png',
+  './assets/logos/composition-logo-5-hover.png',
+  './assets/logos/composition-logo-6-hover.png',
+  './assets/logos/composition-logo-7-hover.png',
+  './assets/logos/composition-logo-8-hover.png',
 ];
 
 class Slider {
