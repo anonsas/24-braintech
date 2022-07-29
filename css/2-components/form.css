@@ -2,7 +2,7 @@
   padding: 2.5rem 4rem 5rem;
   border-radius: 0.6em;
   background-color: var(--white-color);
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: var(--main-shadow);
 }
 
 .form__heading {
@@ -34,7 +34,9 @@
 }
 
 .form > input::placeholder {
-  color: #454545;
+  color: #646465;
+  font-weight: 300;
+  font-family: inherit;
 }
 
 .form > button {
@@ -45,4 +47,26 @@
 
 .form > button:hover {
   opacity: 0.95;
+}
+
+/* BREAKPOINTS =========================== */
+/* from 1000px px */
+@media screen and (min-width: 62.5em) {
+  .form-container {
+    flex-basis: 37rem;
+  }
+}
+
+/* from 1200px px */
+@media screen and (min-width: 75em) {
+  .form-container {
+    flex-basis: 35rem;
+  }
+}
+
+/* from 1300px */
+@media screen and (min-width: 81.25em) {
+  .form-container {
+    flex-basis: 39rem;
+  }
 }

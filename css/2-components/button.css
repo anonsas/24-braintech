@@ -11,7 +11,7 @@
   text-decoration: none;
   color: var(--white-color);
   background: var(--btn-gradient);
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: var(--main-shadow);
 }
 .btn:hover {
   background: var(--btn-gradient-hover);

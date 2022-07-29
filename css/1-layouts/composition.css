@@ -1,7 +1,7 @@
 .composition-top-background {
   background-color: var(--white-color);
   position: relative;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: var(--main-shadow);
 }
 .composition {
   width: 100%;

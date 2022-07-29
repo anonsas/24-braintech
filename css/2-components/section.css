@@ -2,14 +2,21 @@
   display: none;
 }
 
+.section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
 /* from 1000px px */
 @media screen and (min-width: 62.5em) {
   .section {
     position: relative;
 
-    display: flex;
+    flex-direction: row;
     column-gap: 7.5rem;
     align-items: flex-start;
+    justify-content: space-between;
   }
 
   .section__image > img {

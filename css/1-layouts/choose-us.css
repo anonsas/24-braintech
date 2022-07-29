@@ -50,6 +50,7 @@
   border-radius: 50%;
 }
 
+/* BREAKPOINTS =========================== */
 /* from 1000px px */
 @media screen and (min-width: 62.5em) {
   .choose-us-background {
