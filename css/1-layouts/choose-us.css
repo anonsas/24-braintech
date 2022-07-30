@@ -8,6 +8,19 @@
   flex-direction: column;
   row-gap: 4rem;
 }
+
+.section__image .choose-us-animation-top,
+.section__image .choose-us-animation-down {
+  display: none;
+}
+
+.choose-us__image {
+  z-index: 10;
+  position: relative;
+  border-radius: 50%;
+}
+
+/* ================================= */
 .progress-rows {
   display: flex;
   flex-direction: column;
@@ -37,17 +50,6 @@
 }
 .progress-row__content > p {
   color: #454545;
-}
-
-.section__image .choose-us-animation-top,
-.section__image .choose-us-animation-down {
-  display: none;
-}
-
-.choose-us__image {
-  z-index: 10;
-  position: relative;
-  border-radius: 50%;
 }
 
 /* BREAKPOINTS =========================== */

@@ -10,6 +10,15 @@
   row-gap: 4rem;
 }
 
+/* ============================= */
+.progress-row .progress-row__content--title {
+  font-size: 2.2rem;
+}
+.progress-row__content > .address {
+  display: flex;
+  flex-direction: column;
+}
+/* BREAKPOINTS =========================== */
 /* from 768 px */
 @media screen and (min-width: 48em) {
 }
