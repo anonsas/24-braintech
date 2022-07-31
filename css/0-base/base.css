@@ -5,12 +5,15 @@
   --main-color: #101010;
   --white-color: #ffffff;
   --bg-color-gray: #f6f7f9;
+
   --bg-gradient: linear-gradient(to right, #02228e 35%, #0e66d7);
   --btn-gradient: linear-gradient(to top right, #dc4c22, #f1781e);
   --btn-gradient-hover: linear-gradient(to top right, #f1781e, #dc4c22);
   --composition-gradient: linear-gradient(to top right, #080273, #06005f);
+
   --main-shadow: 0px 0px 50px 11px rgb(95 138 236 / 5%);
   --section-shadow: 0px 8px 50px 0px rgb(0 0 0 / 5%);
+  --blog-card-shadow: 0 6px 25px rgb(12 89 219 / 9%);
 }
 
 *,

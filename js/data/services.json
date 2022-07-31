@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "icon": "",
+    "title": "Software Development"
+  },
+  {
+    "id": 2,
+    "icon": "",
+    "title": "Web Development"
+  },
+  {
+    "id": 3,
+    "icon": "",
+    "title": "Analytic Solutions"
+  },
+  {
+    "id": 4,
+    "icon": "",
+    "title": "Clould & DevOps"
+  },
+  {
+    "id": 5,
+    "icon": "",
+    "title": "Product & Design"
+  },
+  {
+    "id": 6,
+    "icon": "",
+    "title": "Data Center"
+  }
+]

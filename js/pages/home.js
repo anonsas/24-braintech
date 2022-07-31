@@ -1,4 +1,10 @@
-console.log('home page...');
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+
+if (module.hot) {
+  module.hot.accept();
+}
+//=========================================================
 
 /* header start */
 /* header end */
