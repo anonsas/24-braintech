@@ -1,7 +1,120 @@
+.footer-background {
+  color: var(--text-color);
+
+  background-image: url('../../assets/images/footer-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #f5f6f9;
+}
+
+.footer-background a,
+.footer-background a:link,
+.footer-background a:visited {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.footer-background a:hover {
+  color: var(--hover-color);
+}
+/* ============================= */
+
+.footer-contacts {
+  padding-top: 9rem;
+  padding-bottom: 6.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.footer__logo {
+  height: 4rem;
+  width: auto;
+  object-fit: contain;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 3rem;
+}
+
+.contact__socials {
+  display: flex;
+  column-gap: 0.8rem;
+}
+
+.contact__socials > a,
+.contact__socials > a:link,
+.contact__socials > a:visited {
+  height: 3.5rem;
+  width: 3.5rem;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: var(--white-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s;
+}
+
+.contact__socials > a > i {
+  font-size: 1.5rem;
+  transition: all 0.4s;
+}
+.contact__socials > a:hover {
+  background-color: var(--hover-color);
+}
+.contact__socials > a:hover > i {
+  color: var(--white-color);
+}
+
+.contact > h3 {
+  color: #000;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.footer-contacts p,
+.footer-contacts form {
+  width: 38rem;
+}
+.contact > form {
+  position: relative;
+}
+.contact > form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 2rem;
+  border-radius: 5em;
+}
+.contact > form > button {
+  position: absolute;
+  right: 0;
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+  padding: 1.2em;
+  border-radius: 50%;
+  color: var(--white-color);
+  background: var(--bg-gradient);
+}
+
+/* ============================= */
 .footer-copyright {
+  width: 100%;
   padding-top: 2rem;
   padding-bottom: 2rem;
-
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -12,25 +125,25 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
-
   width: 43rem;
 }
 
-.footer__nav > a,
-.footer__nav > a:link,
-.footer__nav > a:visited {
-  color: #454545;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-.footer__nav > a:hover {
-  color: #106eea;
-}
 /* ============================= */
 
 /* BREAKPOINTS =========================== */
 /* from 1000px px */
 @media screen and (min-width: 62.5em) {
+  .footer-contacts {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-contacts p,
+  .footer-contacts form {
+    width: 21rem;
+  }
+  .contact span {
+    display: block;
+  }
   .footer-copyright {
     flex-direction: row;
     justify-content: space-between;
@@ -43,6 +156,10 @@
 
 /* from 1200px px */
 @media screen and (min-width: 75em) {
+  .footer-contacts p,
+  .footer-contacts form {
+    width: 25.5rem;
+  }
 }
 
 /* from 1300px */

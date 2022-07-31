@@ -5,6 +5,8 @@
   --main-color: #101010;
   --white-color: #ffffff;
   --bg-color-gray: #f6f7f9;
+  --text-color: #454545;
+  --hover-color: #106eea;
 
   --bg-gradient: linear-gradient(to right, #02228e 35%, #0e66d7);
   --btn-gradient: linear-gradient(to top right, #dc4c22, #f1781e);

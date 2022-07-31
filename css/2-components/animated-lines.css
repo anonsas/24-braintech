@@ -2,14 +2,13 @@
   position: relative;
   height: 100%;
   width: 100%;
-  overflow: hidden;
 }
 
 .animated-line {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 1px;
+  width: 0.5px;
   background-color: #777;
 }
 .animated-line-1 {
@@ -30,7 +29,7 @@
   left: -1px;
   width: 3px;
   height: 6rem;
-  background: linear-gradient(to top, #106eea, var(--white-color));
+  background: linear-gradient(to top, var(--hover-color), var(--white-color));
   animation: header-slides 15s linear 2s infinite;
 }
 .animated-line-2::after {

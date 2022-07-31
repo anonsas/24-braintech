@@ -1,6 +1,6 @@
 .composition-top-background {
-  background-color: var(--white-color);
   position: relative;
+  background-color: var(--white-color);
   box-shadow: var(--section-shadow);
 }
 .composition {

@@ -47,3 +47,12 @@
     font-size: 3.6rem;
   }
 }
+
+/* ====================================*/
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

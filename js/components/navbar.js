@@ -18,3 +18,12 @@ window.addEventListener('scroll', () => {
     headerLogo.src = './assets/logos/main-logo-light.png';
   }
 });
+
+// const fetchData = async () => {
+//   const response = await fetch('./data.json');
+//   const data = await response.json();
+//   const { services } = data;
+//   console.log(services);
+// };
+
+// fetchData();

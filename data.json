@@ -1,0 +1,100 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "icon": "",
+      "title": "Software Development"
+    },
+    {
+      "id": 2,
+      "icon": "",
+      "title": "Web Development"
+    },
+    {
+      "id": 3,
+      "icon": "",
+      "title": "Analytic Solutions"
+    },
+    {
+      "id": 4,
+      "icon": "",
+      "title": "Cloud & DevOps"
+    },
+    {
+      "id": 5,
+      "icon": "",
+      "title": "Product & Design"
+    },
+    {
+      "id": 6,
+      "icon": "",
+      "title": "Data Center"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "imageURL": "",
+      "imageTitle": "Software Development",
+      "date": "16 Nov 2020",
+      "title": "Necessity May Give Us Your Best Virtual Court System"
+    },
+    {
+      "id": 2,
+      "imageURL": "",
+      "imageTitle": "Web Development",
+      "date": "20 December 2020",
+      "title": "Tech Products That Makes Its Easier to Stay at Home"
+    },
+    {
+      "id": 3,
+      "imageURL": "",
+      "imageTitle": "IT Services",
+      "date": "22 December 2020",
+      "title": "Open Source Job Report Show More Openings Fewer"
+    },
+    {
+      "id": 4,
+      "imageURL": "",
+      "imageTitle": "Artificial Intelligence",
+      "date": "26 December 2020",
+      "title": "Types of Social Proof What its Makes Them Effective"
+    },
+    {
+      "id": 5,
+      "imageURL": "",
+      "imageTitle": "Digital Technology",
+      "date": "28 December 2020",
+      "title": "Tech Firms Support Huawei Restriction, Balk at Cost"
+    },
+    {
+      "id": 6,
+      "imageURL": "",
+      "imageTitle": "It services",
+      "date": "30 December 2020",
+      "title": "Servo Project Joins The Linux Foundation Fold Desco"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Mariya Khan",
+      "job": "CEO, Brick Consulting"
+    },
+    {
+      "id": 2,
+      "name": "Sonia Akther",
+      "job": "CEO, Keen IT Solution"
+    },
+    {
+      "id": 3,
+      "name": "Felando",
+      "job": "Web Developer"
+    },
+    {
+      "id": 4,
+      "name": "Neymar Vuya",
+      "job": "Artist"
+    }
+  ]
+}
