@@ -2,13 +2,13 @@
   background: var(--composition-gradient);
   cursor: auto;
 }
-.composition-bottom-background .composition__slide {
+.composition-bottom-background .composition__slider-2 {
   cursor: pointer;
 }
-.composition-bottom-background .composition__slide > img {
+.composition-bottom-background .composition__slider-2 > img {
   filter: grayscale(100%);
 }
 
-.composition-bottom-background .composition__slide > img:hover {
+.composition-bottom-background .composition__slider-2 > img:hover {
   filter: none;
 }

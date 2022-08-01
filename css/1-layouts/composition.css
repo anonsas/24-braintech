@@ -16,20 +16,34 @@
 }
 
 .composition__slider {
-  position: absolute;
-  left: 0;
   display: flex;
-  column-gap: 2rem;
   transition: 0 ease-in;
 }
 
-.composition__slide {
-  height: 7rem;
-  width: 22rem;
+.composition__slider > img {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
 }
 
-.composition__slide > img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+/* ============================= */
+.tns-nav {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.tns-nav button {
+  height: 13px;
+  width: 8px;
+  background-color: #a5a5a5;
+  border: none;
+  margin-left: 7px;
+  border-radius: 50%;
+}
+.tns-nav .tns-nav-active {
+  background-color: black;
+}
+
+.tns-liveregion {
+  display: none;
 }
