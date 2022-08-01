@@ -7,8 +7,6 @@
 .composition {
   width: 100%;
   overflow: hidden;
-
-  position: relative;
   height: 19rem;
   display: flex;
   align-items: center;
@@ -16,6 +14,7 @@
 }
 
 .composition__slider {
+  height: 8rem;
   display: flex;
   transition: 0 ease-in;
 }
@@ -27,23 +26,20 @@
 }
 
 /* ============================= */
-.tns-nav {
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-.tns-nav button {
-  height: 13px;
-  width: 8px;
-  background-color: #a5a5a5;
-  border: none;
-  margin-left: 7px;
-  border-radius: 50%;
-}
-.tns-nav .tns-nav-active {
-  background-color: black;
-}
-
+/* Tiny-slider package styles */
 .tns-liveregion {
   display: none;
+}
+#tns1-ow,
+#tns2-ow,
+#tns4-ow {
+  width: 100% !important;
+}
+#tns1-iw,
+#tns2-iw {
+  margin: 0 !important;
+}
+
+#tns4-mw {
+  width: 100% !important;
 }

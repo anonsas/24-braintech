@@ -5,11 +5,17 @@
 }
 
 .testimonials {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   row-gap: 5rem;
 }
+
 /* ============================= */
+.testimonials-reviews {
+  display: flex;
+  padding-bottom: 5rem;
+}
 
 .review {
   position: relative;
@@ -21,7 +27,7 @@
 }
 
 .review > img {
-  height: 100%;
+  height: auto;
   width: 5rem;
   object-fit: contain;
 }

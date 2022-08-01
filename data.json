@@ -1,4 +1,24 @@
 {
+  "composition1": [
+    "./assets/logos/composition-logo-1.png",
+    "./assets/logos/composition-logo-2.png",
+    "./assets/logos/composition-logo-3.png",
+    "./assets/logos/composition-logo-4.png",
+    "./assets/logos/composition-logo-5.png",
+    "./assets/logos/composition-logo-6.png",
+    "./assets/logos/composition-logo-7.png",
+    "./assets/logos/composition-logo-8.png"
+  ],
+  "composition2": [
+    "./assets/logos/composition-logo-1-hover.png",
+    "./assets/logos/composition-logo-2-hover.png",
+    "./assets/logos/composition-logo-3-hover.png",
+    "./assets/logos/composition-logo-4-hover.png",
+    "./assets/logos/composition-logo-5-hover.png",
+    "./assets/logos/composition-logo-6-hover.png",
+    "./assets/logos/composition-logo-7-hover.png",
+    "./assets/logos/composition-logo-8-hover.png"
+  ],
   "services": [
     {
       "id": 1,
