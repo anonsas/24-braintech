@@ -1,3 +1,5 @@
+import { tns } from './node_modules/tiny-slider/src/tiny-slider';
+
 const imageList = [
   './assets/logos/composition-logo-1.png',
   './assets/logos/composition-logo-2.png',

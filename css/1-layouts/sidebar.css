@@ -23,6 +23,11 @@
     transform: translateX(0);
   }
 
+  .sidebar__logo {
+    height: 3.6rem;
+    width: auto;
+  }
+
   .sidebar > button {
     position: absolute;
     top: 3rem;

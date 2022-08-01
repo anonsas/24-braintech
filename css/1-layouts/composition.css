@@ -3,6 +3,7 @@
   background-color: var(--white-color);
   box-shadow: var(--section-shadow);
 }
+
 .composition {
   width: 100%;
   overflow: hidden;

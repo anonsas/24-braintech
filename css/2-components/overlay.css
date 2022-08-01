@@ -11,6 +11,8 @@
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(2px);
     transform: translateX(100%);
+    cursor: crosshair;
+    cursor: url(../../assets/icons/cursor-icon.png), auto;
     transition: all 1s;
     z-index: 2000;
   }

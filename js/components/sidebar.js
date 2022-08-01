@@ -12,3 +12,8 @@ sidebarCloseBtn.addEventListener('click', () => {
   sidebar.classList.remove('sidebar-open');
   overlay.classList.remove('overlay-open');
 });
+
+overlay.addEventListener('click', () => {
+  sidebar.classList.remove('sidebar-open');
+  overlay.classList.remove('overlay-open');
+});
