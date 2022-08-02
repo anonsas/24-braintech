@@ -16,3 +16,36 @@
 .btn:hover {
   background: var(--btn-gradient-hover);
 }
+
+/* ============================= */
+/* MOVE TO TOP BUTTON  */
+.btn-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 4rem;
+  height: 0;
+  width: 0;
+  border-radius: 50%;
+  opacity: 0.9;
+  border: none;
+  cursor: pointer;
+  color: var(--white-color);
+  background: var(--bg-gradient);
+  visibility: hidden;
+  transition: all 0.4s;
+
+  display: grid;
+  place-items: center;
+}
+.btn-to-top:hover {
+  opacity: 0.8;
+}
+.btn-to-top > i {
+  font-size: 2rem;
+}
+
+.btn-to-top-show {
+  height: 4.5rem;
+  width: 4.5rem;
+  visibility: visible;
+}

@@ -34,24 +34,128 @@ html {
 body {
   box-sizing: border-box;
   font-family: var(--font-base);
-  color: #333;
   font-weight: 400;
   line-height: 1.6;
   overflow-x: hidden;
   width: 100%;
   font-size: 1.6rem; /* 1rem = 10px, 1.6rem = 16px */
   min-height: 100vh; /* body - takes the full screen */
-
   color: var(--main-color);
   background: var(--white-color);
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 /* Changing the style of selected text */
 ::selection {
   color: var(--white-color);
-  background-color: #106eea;
+  background-color: var(--hover-color);
+}
+
+/* ============================= */
+/* Reusable classes */
+
+.section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.section__image > img {
+  display: none;
+}
+
+.section-name {
+  font-size: 1.4rem;
+  color: #03228e;
+}
+
+.highlighted-section-name {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  color: #03228e;
+  position: relative;
+  padding-left: 10.6rem;
+}
+.highlighted-section-name::before,
+.highlighted-section-name::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 0.4rem;
+  width: 1.2rem;
+  background-color: #fd6507;
+}
+.highlighted-section-name::after {
+  left: 2.4rem;
+  width: 5rem;
+}
+
+.content-title {
+  font-size: 2.6rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.4;
+}
+
+.content-paragraph {
+  color: var(--text-color);
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+
+/* from 768 px */
+@media screen and (min-width: 48em) {
+  .content-title {
+    font-size: 3rem;
+  }
+}
+
+/* from 1000px px */
+@media screen and (min-width: 62.5em) {
+  .section {
+    position: relative;
+
+    flex-direction: row;
+    column-gap: 7.5rem;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .section__image > img {
+    display: block;
+    height: 100%;
+    width: 45rem;
+    object-fit: contain;
+  }
+}
+
+/* from 1200px px */
+@media screen and (min-width: 75em) {
+  .section {
+    column-gap: 4rem;
+  }
+
+  .section__image > img {
+    width: 58rem;
+  }
+  .content-title {
+    font-size: 3.6rem;
+  }
+}
+
+/* from 1300px */
+@media screen and (min-width: 81.25em) {
+  .section {
+    column-gap: 9rem;
+  }
+}
+
+/* ====================================*/
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }

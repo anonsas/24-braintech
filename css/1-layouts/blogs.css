@@ -17,11 +17,6 @@
   text-align: center;
 }
 
-.blog__content p:first-child {
-  font-size: 1.4rem;
-  color: #03228e;
-}
-
 .blog__content .content-title {
   font-size: 3rem;
 }

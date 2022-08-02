@@ -35,56 +35,6 @@
   </head>
 
   <body>
-    <!-- SIDEBAR + OVERLAY --START==================== -->
-    <div class="overlay"></div>
-
-    <div class="sidebar">
-      <button id="sidebar-close" class="fa-regular fa-rectangle-list"></button>
-      <div class="sidebar__content">
-        <img src="./assets/logos/main-logo-dark.png" alt="logo" class="sidebar__logo" />
-        <p>
-          Braintech quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh
-          luctus, in porttitor theo lacus egestas etiusto odio data center.
-        </p>
-      </div>
-
-      <div class="sidebar__contacts">
-        <div class="sidebar__contact">
-          <i class="fa-solid fa-map-location-dot"></i>
-          <div class="sidebar__contact-content">
-            <p class="sidebar__contact-content--title">Address</p>
-            <p class="sidebar__contact-content--desc">05 kandi BR. New York</p>
-          </div>
-        </div>
-
-        <div class="sidebar__contact">
-          <i class="fa-solid fa-envelope"></i>
-          <div class="sidebar__contact-content">
-            <p class="sidebar__contact-content--title">Email</p>
-            <p class="sidebar__contact-content--desc">support@rstheme.com</p>
-          </div>
-        </div>
-
-        <div class="sidebar__contact">
-          <i class="fa-solid fa-phone"></i>
-          <div class="sidebar__contact-content">
-            <p class="sidebar__contact-content--title">Phone</p>
-            <p class="sidebar__contact-content--desc">+019988772</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="sidebar__socials">
-        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-      </div>
-    </div>
-    <!-- SIDEBAR + OVERLAY --END==================== -->
-
-    <!-- ======================================================== -->
-
     <div class="animated-lines-wrapper">
       <div class="animated-line animated-line-1"></div>
       <div class="animated-line animated-line-2"></div>
@@ -166,7 +116,7 @@
       <div class="row">
         <div class="about">
           <!-- LEFT-SIDE -->
-          <div class="about-content">
+          <div class="about__content">
             <div class="content__text">
               <p class="highlighted-section-name">ABOUT US</p>
               <h2 class="content-title">
@@ -293,7 +243,7 @@
           <!-- TOP -->
           <div class="services__content">
             <div class="content-name">
-              <p>SERVICES</p>
+              <p class="section-name">SERVICES</p>
               <h2 class="content-title">
                 What Solutions We Provide to Our Valued Customers
               </h2>
@@ -519,7 +469,7 @@
         <div class="blogs">
           <!-- TOP -->
           <div class="blog__content">
-            <p>BLOGS</p>
+            <p class="section-name">BLOGS</p>
             <h2 class="content-title">Latest Tips &Tricks</h2>
             <p class="content-paragraph">
               We've been building creative tools together for over a decade and have a
@@ -650,14 +600,62 @@
     <!-- ======================================================== -->
 
     <!-- MOVE TO TOP BUTTON --START==================== -->
-    <button class="btn-to-top">
-      <!-- <i class="fa-solid fa-chevron-up"></i> -->
-    </button>
+    <button class="btn-to-top"><i class="fa-solid fa-chevron-up"></i></button>
     <!-- MOVE TO TOP BUTTON --END====================== -->
+
+    <!-- ======================================================== -->
+    <!-- SIDEBAR + OVERLAY --START==================== -->
+    <div class="overlay"></div>
+
+    <div class="sidebar">
+      <button id="sidebar-close" class="fa-regular fa-rectangle-list"></button>
+      <div class="sidebar__content">
+        <img src="./assets/logos/main-logo-dark.png" alt="logo" class="sidebar__logo" />
+        <p>
+          Braintech quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh
+          luctus, in porttitor theo lacus egestas etiusto odio data center.
+        </p>
+      </div>
+
+      <div class="sidebar__contacts">
+        <div class="sidebar__contact">
+          <i class="fa-solid fa-map-location-dot"></i>
+          <div class="sidebar__contact-content">
+            <p class="sidebar__contact-content--title">Address</p>
+            <p class="sidebar__contact-content--desc">05 kandi BR. New York</p>
+          </div>
+        </div>
+
+        <div class="sidebar__contact">
+          <i class="fa-solid fa-envelope"></i>
+          <div class="sidebar__contact-content">
+            <p class="sidebar__contact-content--title">Email</p>
+            <p class="sidebar__contact-content--desc">support@rstheme.com</p>
+          </div>
+        </div>
+
+        <div class="sidebar__contact">
+          <i class="fa-solid fa-phone"></i>
+          <div class="sidebar__contact-content">
+            <p class="sidebar__contact-content--title">Phone</p>
+            <p class="sidebar__contact-content--desc">+019988772</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar__socials">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    <!-- SIDEBAR + OVERLAY --END==================== -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script defer src="./js/components/composition.js" type="module"></script>
     <script defer src="./js/components/navbar.js"></script>
     <script defer src="./js/components/sidebar.js"></script>
+    <script defer src="./js/components/buttonToTop.js"></script>
   </body>
 </html>

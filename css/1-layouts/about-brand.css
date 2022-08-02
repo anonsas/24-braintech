@@ -45,7 +45,6 @@
   left: 0;
   bottom: 0;
 }
-
 .bar__progress--1::before {
   width: 92%;
   background: repeating-linear-gradient(
@@ -88,5 +87,3 @@
     rgba(244, 64, 138, 1) 10px
   );
 }
-
-

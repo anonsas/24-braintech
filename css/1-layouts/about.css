@@ -8,33 +8,32 @@
   display: flex;
   flex-direction: column;
 }
-.about-content {
+.about__content {
   display: flex;
   flex-direction: column;
   row-gap: 3rem;
 }
 
 /* ============================= */
-
-.content__statistics {
+.about .content__statistics {
   margin-left: 3rem;
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
 }
 
-.content__statistic {
+.about .content__statistic {
   font-size: 2rem;
   font-weight: 600;
   display: flex;
   flex-direction: column;
 }
-.content__statistic > span {
+.about .content__statistic > span {
   font-weight: 700;
   color: #dd4c23;
   font-size: 4rem;
 }
-.content__statistic--2 > span {
+.about .content__statistic--2 > span {
   color: #03228e;
 }
 
@@ -59,7 +58,7 @@
 /* BREAKPOINTS =========================== */
 /* from 580 px */
 @media screen and (min-width: 36.25em) {
-  .content__statistics {
+  .about .content__statistics {
     flex-direction: row;
     row-gap: 0;
     column-gap: 11rem;
@@ -68,10 +67,10 @@
 
 /* from 768 px */
 @media screen and (min-width: 48em) {
-  .content__statistics {
+  .about .content__statistics {
     column-gap: 20rem;
   }
-  .content__statistic > span {
+  .about .content__statistic > span {
     font-size: 4.4rem;
   }
   .about-cards {
@@ -99,35 +98,35 @@
     flex-direction: row;
     column-gap: 4.5rem;
   }
-  .about-content {
+  .about__content {
     width: 37rem;
     margin-top: 9rem;
   }
-  .content__statistics {
+  .about .content__statistics {
     margin-left: 1.5rem;
     column-gap: 2rem;
   }
-  .content__statistics {
+  .about .content__statistics {
     justify-content: space-between;
   }
-  .content__statistic {
+  .about .content__statistic {
     width: 30rem;
   }
 }
 
 /* from 1200px px */
 @media screen and (min-width: 75em) {
-  .about-content {
+  .about__content {
     width: 44rem;
   }
-  .content__statistic > span {
+  .about .content__statistic > span {
     font-size: 4.4rem;
   }
 }
 
 /* from 1300px */
 @media screen and (min-width: 81.25em) {
-  .about-content {
+  .about__content {
     width: 48rem;
   }
 }
