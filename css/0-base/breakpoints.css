@@ -1,12 +1,5 @@
 /* MEDIA QUERY MANAGER */
 
-/* from 480px === min-width: 30em */
-/* from 580px === min-width: 36.25em */
-/* from 768px === min-width: 48em */
-/* from 1000px === min-width: 62.5em */
-/* from 1200px === min-width: 75em */
-/* from 1300px === min-width: 81.25em */
-
 .container {
   width: 100%;
   display: inline-block;
