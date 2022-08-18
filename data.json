@@ -1,5 +1,5 @@
 {
-  "composition1": [
+  "compositionList1": [
     "./assets/logos/composition-logo-1.png",
     "./assets/logos/composition-logo-2.png",
     "./assets/logos/composition-logo-3.png",
@@ -9,7 +9,8 @@
     "./assets/logos/composition-logo-7.png",
     "./assets/logos/composition-logo-8.png"
   ],
-  "composition2": [
+
+  "compositionList2": [
     "./assets/logos/composition-logo-1-hover.png",
     "./assets/logos/composition-logo-2-hover.png",
     "./assets/logos/composition-logo-3-hover.png",
@@ -19,102 +20,109 @@
     "./assets/logos/composition-logo-7-hover.png",
     "./assets/logos/composition-logo-8-hover.png"
   ],
+
   "services": [
     {
       "id": 1,
-      "icon": "",
+      "icon": "./assets/icons/service-icon-1.png",
       "title": "Software Development"
     },
     {
       "id": 2,
-      "icon": "",
+      "icon": "./assets/icons/service-icon-2.png",
       "title": "Web Development"
     },
     {
       "id": 3,
-      "icon": "",
+      "icon": "./assets/icons/service-icon-3.png",
       "title": "Analytic Solutions"
     },
     {
       "id": 4,
-      "icon": "",
+      "icon": "./assets/icons/service-icon-4.png",
       "title": "Cloud & DevOps"
     },
     {
       "id": 5,
-      "icon": "",
+      "icon": "./assets/icons/service-icon-5.png",
       "title": "Product & Design"
     },
     {
       "id": 6,
-      "icon": "",
+      "icon": "./assets/icons/service-icon-6.png",
       "title": "Data Center"
     }
   ],
+
   "blogs": [
     {
-      "id": 1,
-      "imageURL": "",
+      "id": 7,
+      "imageURL": "./assets/images/blog-1.jpg",
       "imageTitle": "Software Development",
       "date": "16 Nov 2020",
       "title": "Necessity May Give Us Your Best Virtual Court System"
     },
     {
-      "id": 2,
-      "imageURL": "",
+      "id": 8,
+      "imageURL": "./assets/images/blog-2.jpg",
       "imageTitle": "Web Development",
       "date": "20 December 2020",
       "title": "Tech Products That Makes Its Easier to Stay at Home"
     },
     {
-      "id": 3,
-      "imageURL": "",
+      "id": 9,
+      "imageURL": "./assets/images/blog-3.jpg",
       "imageTitle": "IT Services",
       "date": "22 December 2020",
       "title": "Open Source Job Report Show More Openings Fewer"
     },
     {
-      "id": 4,
-      "imageURL": "",
+      "id": 10,
+      "imageURL": "./assets/images/blog-4.jpg",
       "imageTitle": "Artificial Intelligence",
       "date": "26 December 2020",
       "title": "Types of Social Proof What its Makes Them Effective"
     },
     {
-      "id": 5,
-      "imageURL": "",
+      "id": 11,
+      "imageURL": "./assets/images/blog-5.jpg",
       "imageTitle": "Digital Technology",
       "date": "28 December 2020",
       "title": "Tech Firms Support Huawei Restriction, Balk at Cost"
     },
     {
-      "id": 6,
-      "imageURL": "",
+      "id": 12,
+      "imageURL": "./assets/images/blog-6.jpg",
       "imageTitle": "It services",
       "date": "30 December 2020",
       "title": "Servo Project Joins The Linux Foundation Fold Desco"
     }
   ],
+
   "testimonials": [
     {
-      "id": 1,
+      "id": 13,
       "name": "Mariya Khan",
-      "job": "CEO, Brick Consulting"
+      "job": "CEO, Brick Consulting",
+      "imageURL": "./assets/images/testimonial-user1.jpg"
     },
     {
-      "id": 2,
+      "id": 14,
       "name": "Sonia Akther",
-      "job": "CEO, Keen IT Solution"
+      "job": "CEO, Keen IT Solution",
+      "imageURL": "./assets/images/testimonial-user2.jpg"
     },
     {
-      "id": 3,
+      "id": 15,
       "name": "Felando",
-      "job": "Web Developer"
+      "job": "Web Developer",
+      "imageURL": "./assets/images/testimonial-user3.jpg"
     },
     {
-      "id": 4,
+      "id": 16,
       "name": "Neymar Vuya",
-      "job": "Artist"
+      "job": "Artist",
+      "imageURL": "./assets/images/testimonial-user4.jpg"
     }
   ]
 }
