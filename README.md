@@ -1,29 +1,57 @@
-![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
-![Security Status](https://img.shields.io/security-headers?label=Security&url=https%3A%2F%2Fgithub.com&style=flat-square)
-![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
-![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
-[![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
-
 # Braintech-project
-
-This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
 Site published at: https://igor-braintech.netlify.app
 
 Design: https://rstheme.com/products/html/braintech/index5.html#
 
-## Project features
+## Description
 
-- Github pages
-- single-page
-- content rendering with JS
-- carousel
-- gallery
-- progress bar
-- fontawesome icons
-- CSS animations
-- CSS import
-- JS import-export
+IT Solutions and Technology Startup.
+
+## Technology stack
+
+This project was built using [Node v16.x] and uses the following technologies:
+
+- NPM - for dependency management.
+- SASS - for keeping things organized.
+- JavaScript - to create dynamic and interactive web content.
+- ParcelJS - for bundling, transpilation, development, etc.
+- ImageKit.io - Global Image CDN, to speed up image delivery to the user.
+
+## Installation
+
+1. Install Node from https://nodejs.org/en/.
+2. Clone the repository.
+
+```bash
+$ git clone https://github.com/anonsas/24-braintech.git
+```
+
+3. Navigate to the project's root directory.
+4. Install all the dependencies listed in package.json.
+
+```bash
+npm install
+```
+
+5. Parcel will run a local development server.
+
+```bash
+npm run dev
+```
+
+## Rankings
+
+- Performance: 91%.
+- Accessibility: 97%.
+- Best Practices: 100%.
+- Seo: 92%.
+
+Tools for ranking:
+
+1. Lighthouse - automated tool for improving the quality of web pages.
+
+2. PageSpeed Insights - reports on the performance of a page on both mobile and desktop devices, and provides suggestions on how that page may be improved.
 
 ## Authors
 
