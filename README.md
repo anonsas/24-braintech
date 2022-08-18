@@ -8,7 +8,7 @@
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://anonsas.github.io/24-braintech/
+Site published at: https://igor-braintech.netlify.app
 
 Design: https://rstheme.com/products/html/braintech/index5.html#
 
