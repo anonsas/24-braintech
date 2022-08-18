@@ -1,6 +1,6 @@
 # Braintech-project
 
-Site published at: https://igor-braintech.netlify.app
+Site published at: https://braintech-igor.netlify.app
 
 Design: https://rstheme.com/products/html/braintech/index5.html#
 
