@@ -42,8 +42,8 @@ npm run dev
 
 ## Rankings
 
-- Performance: 91%.
-- Accessibility: 97%.
+- Performance: 68%.
+- Accessibility: 84%.
 - Best Practices: 100%.
 - Seo: 92%.
 
